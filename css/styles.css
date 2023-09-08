@@ -46,6 +46,7 @@ img {
 }
 button {
   font-family: inherit;
+
 }
 .container{
   max-width: 1200px;
@@ -55,7 +56,25 @@ button {
 
 /* Header */
 
+.container-header-inner{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-nav{
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  gap: 24px;
+}
+.header-contacts{
+  display: flex;
+  gap: 40px;
+}
 .logo {
+  display: flex;
+  align-items: center;
+  gap: 76px;
   font-family: "Raleway", sans-serif;
   color: #4d5ae5;
   font-size: 18px;
@@ -68,7 +87,13 @@ button {
 .logo-accent {
   color: #2e2f42;
 }
+.nav-menu{
+  display: flex;
+  gap: 24px;
+  flex-grow: 1;
+  justify-content: center;
 
+}
 .nav-link {
   color: #2e2f42;
   font-weight: 500;
@@ -124,12 +149,12 @@ background-color:#2e2f42;
   line-height: 1.5;
   letter-spacing: 0.04em;
   background-color: #4d5ae5;
+ 
 }
 
 .hero-button:hover,
 .hero-button:focus {
   background-color: #404bbf;
-  
 }
 
 /* Adventure section */
