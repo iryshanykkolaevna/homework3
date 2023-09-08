@@ -49,14 +49,18 @@ button {
 
 }
 .container{
+  width: 1158px;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 32px;
+  padding: 0 15px 0 15px
 }
 
 /* Header */
 
-.container-header-inner{
+.header{
+  border-bottom: 1px solid #e7e9fc;
+}
+.header-inner{
   display: flex;
   align-items: center;
   justify-content: space-between;
