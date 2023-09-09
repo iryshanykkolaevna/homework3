@@ -91,7 +91,7 @@ button {
 .nav-menu{
   padding: 24px 0;
   display: flex;
-  gap: 24px;
+  gap: 40px;
   flex-grow: 1;
   justify-content: center;
 
