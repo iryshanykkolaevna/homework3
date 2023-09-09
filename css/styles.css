@@ -259,7 +259,6 @@ padding-bottom: 120px;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   margin-bottom: 72px;
-  margin-bottom: 8px;
 }
 .portfolio-list{
 display: flex;
@@ -279,6 +278,7 @@ flex-basis: calc((100% - 48px) / 3);
   line-height: 1.2;
   letter-spacing: 0.02em;
   color:#2e2f42 ;
+  margin-bottom: 8px;
 }
 .portfolio-list-text {
   letter-spacing: 0.02em;
