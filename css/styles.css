@@ -49,6 +49,7 @@ button {
 
 }
 .container{
+  display: flex;
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px 0 15px
@@ -70,10 +71,7 @@ button {
   flex-grow: 1;
   gap: 24px;
 }
-.header-contacts{
-  display: flex;
-  gap: 40px;
-}
+
 .logo {
   align-items: center;
   gap: 76px;
@@ -84,6 +82,7 @@ button {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .logo-accent {
@@ -113,7 +112,10 @@ button {
   font-style: normal;
   letter-spacing: 0.02em
 }
-
+.contacts-item {
+  display: flex;
+  gap: 40px;
+}
 .address-box {
   line-height: 1.5;
   letter-spacing: 0.02;
