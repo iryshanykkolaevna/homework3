@@ -279,11 +279,14 @@ flex-basis: calc((100% - 48px) / 3);
 /* Footer section */
 
 .footer {
-  display: inline-block;
-  background-color:#2E2F42;
-  padding: 100px 0;
-  margin-bottom: 16px;
   
+  background-color:#2E2F42;
+ 
+}
+.container-footer{
+display: inline-block;
+padding: 100px 0;
+margin-bottom: 16px;
 }
 
 .footer-logo {
