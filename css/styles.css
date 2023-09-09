@@ -251,17 +251,20 @@ margin-bottom: 8px;
 
 /* Portfolio section */
 .portfolio-section{
-  padding: 32px 0;
+padding-top: 120px;
+padding-bottom: 120px;
 }
 .portfolio-title {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 .portfolio-list{
 display: flex;
 gap: 24px;
 flex-wrap: wrap;
+row-gap: 48px
 }
 .portfolio-item{
 flex-basis: calc((100% - 48px) / 3);
@@ -280,7 +283,13 @@ flex-basis: calc((100% - 48px) / 3);
   letter-spacing: 0.02em;
   line-height: 1.5;
 }
-.portfolio
+.portfolio{
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+  
+}
 
 /* Footer section */
 
