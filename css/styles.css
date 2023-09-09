@@ -206,7 +206,7 @@ padding: 120px 0
 
 .team-section {
   background-color: #f4f4fd;
-  padding: 32px 0;
+  padding: 120px 0;
 }
 .team-icon{
 
@@ -229,6 +229,7 @@ padding: 120px 0
 .team-section-item{
 background-color: #FFFFFF;
 flex-basis: calc((100% - 72px) / 4);
+border-radius: 0px 0px 4px 4px;
 }
 
 .team-name {
