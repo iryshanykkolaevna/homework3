@@ -67,6 +67,7 @@ button {
   justify-content: space-between;
 }
 .header-nav{
+  
   align-items: center;
   flex-grow: 1;
   gap: 24px;
