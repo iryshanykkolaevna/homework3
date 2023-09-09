@@ -49,6 +49,7 @@ button {
 
 }
 .container{
+  display: flex;
   width: 1158px;
   max-width: 1200px;
   margin: 0 auto;
