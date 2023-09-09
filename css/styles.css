@@ -140,13 +140,12 @@ background-color:#2e2f42;
   letter-spacing: 0.02em;
   max-width: 496px;
   margin-bottom: 48px;
- 
   
 }
 
 .hero-button {
-  display: inline-flex;
-    padding: 16px 32px;
+  display: block;
+    
     align-items: flex-start;
     gap: 10px;
     border-radius: 4px;
@@ -156,7 +155,9 @@ background-color:#2e2f42;
   line-height: 1.5;
   letter-spacing: 0.04em;
   background-color: #4d5ae5;
- 
+min-width: 169px;
+height: 56px;
+border: none;
 }
 
 .hero-button:hover,
