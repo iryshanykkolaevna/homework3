@@ -259,6 +259,7 @@ padding-bottom: 120px;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   margin-bottom: 72px;
+  margin-bottom: 8px;
 }
 .portfolio-list{
 display: flex;
@@ -288,7 +289,7 @@ flex-basis: calc((100% - 48px) / 3);
   border: 1px solid #e7e9fc;
   border-top: none;
   margin-bottom: 8px;
-  
+
 }
 
 /* Footer section */
