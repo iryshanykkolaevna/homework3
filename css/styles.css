@@ -97,6 +97,7 @@ header .container{
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 .nav-link:hover,
