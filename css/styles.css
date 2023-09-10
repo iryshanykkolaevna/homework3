@@ -301,6 +301,7 @@ flex-basis: calc((100% - 48px) / 3);
 
 
 .footer-logo {
+  display: inline-block;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -309,7 +310,7 @@ flex-basis: calc((100% - 48px) / 3);
   text-transform: uppercase;
   color: #4d5ae5;
   margin-bottom: 16px;
-  display: inline-block;
+ 
   
 }
 
