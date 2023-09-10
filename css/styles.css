@@ -49,10 +49,9 @@ button {
 
 }
 .container{
-  display: flex;
   width: 1158px;
   margin: 0 auto;
-  padding: 0 15px 0 15px
+  padding: 0 15px;
 }
 
 /* Header */
@@ -65,7 +64,6 @@ button {
   display: flex;
   align-items: center;
   flex-grow: 1;
-  gap: 24px;
 }
 
 .logo {
@@ -89,7 +87,6 @@ button {
   display: flex;
   gap: 40px;
   flex-grow: 1;
-  justify-content: center;
 
 }
 .nav-link {
