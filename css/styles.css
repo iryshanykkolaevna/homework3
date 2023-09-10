@@ -266,7 +266,7 @@ flex-wrap: wrap;
 row-gap: 48px
 }
 .portfolio-item{
-flex-basis: calc((100% - 48px) / 3);
+width: calc((100% - 48px) / 3);
 }
 .portfolio-item-title {
   color: #2e2f42;
@@ -301,7 +301,6 @@ flex-basis: calc((100% - 48px) / 3);
 
 
 .footer-logo {
-  display: inline-block;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -309,9 +308,9 @@ flex-basis: calc((100% - 48px) / 3);
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: inline-block;
   margin-bottom: 16px;
- 
-  
+
 }
 
 .footer-logo-accent {
