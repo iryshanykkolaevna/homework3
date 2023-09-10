@@ -319,4 +319,5 @@ width: calc((100% - 48px) / 3);
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
