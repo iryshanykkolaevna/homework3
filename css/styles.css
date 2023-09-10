@@ -90,7 +90,7 @@ button {
   gap: 40px;
   flex-grow: 1;
   justify-content: center;
-padding: 24px 0
+
 }
 .nav-link {
   color: #2e2f42;
@@ -111,6 +111,7 @@ padding: 24px 0
 .contacts-item {
   display: flex;
   gap: 40px;
+  padding: 24px 0
 }
 .address-box {
   line-height: 1.5;
